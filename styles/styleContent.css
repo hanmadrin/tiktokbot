@@ -1,0 +1,34 @@
+#shadow_screen_holder{
+    height: 100vh;
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index:1000;
+    /* pointer-events: none; */
+}
+.tiktokBot_shadow_screen {
+    content: 'TiktokBot working';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed; 
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 0.8;
+    cursor:not-allowed;
+    color: white;
+    font-size: 8rem;
+    /* pointer-events: none;
+    opacity: 0.5; */
+}
+.tiktokBot_shadow_screen>span{
+    font-size:8rem;
+    color:white;
+}
